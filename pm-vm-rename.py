@@ -39,7 +39,7 @@ def get_config_absolute_filename(path, vmid):
 	return path + "/" + vmid + ".conf"
 
 def get_image_filename(vmid):
-	return "vm-" + vmid + "-disk-1.qcow2"
+	return "vm-" + vmid + "-disk-0.qcow2"
 
 def rename_config_contents_and_filename(oldid, newid, oldfilepath, newfilepath):
 	searchstring = oldid + "/vm-" + oldid
